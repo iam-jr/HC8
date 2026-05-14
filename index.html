@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f766e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>High Cloud 8 Org</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icon-192.svg" />
+  <link rel="stylesheet" href="./viewer.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>High Cloud 8 Org</h1>
+    </section>
+
+    <section id="error" class="error" aria-live="polite"></section>
+
+    <section class="grid">
+      <article class="card card-full">
+        <div class="controls">
+          <label for="clientSelect">Cliente</label>
+          <select id="clientSelect" aria-label="Selecciona un cliente"></select>
+          <button id="installBtn" type="button" class="install-btn" hidden>Instalar app</button>
+        </div>
+        <h2>Diagrama De Clientes</h2>
+        <p class="note">Selecciona un cliente para ver el diagrama. Haz click sobre el diagrama para verlo como imagen ampliada.</p>
+        <div id="preview" class="preview"></div>
+        <div id="mobileTree" class="mobile-tree" aria-live="polite"></div>
+      </article>
+
+      <article class="card card-full">
+        <h2>Informacion del diagrama</h2>
+        <div id="clientInfo" class="client-info"></div>
+      </article>
+    </section>
+  </main>
+
+  <div id="imageModal" class="image-modal" hidden>
+    <div class="image-modal-backdrop" data-close-modal="true"></div>
+    <div class="image-modal-dialog" role="dialog" aria-modal="true" aria-label="Vista ampliada del diagrama">
+      <div class="image-modal-toolbar">
+        <button id="rotateBtn" type="button" class="image-modal-action image-modal-icon" aria-label="Girar imagen" title="Girar imagen">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M17 7h4v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21 11a9 9 0 1 1-3-6.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button id="closeModalBtn" type="button" class="image-modal-close" aria-label="Cerrar imagen">Cerrar</button>
+      </div>
+      <div class="image-modal-stage">
+        <img id="modalImage" class="image-modal-img" alt="Vista ampliada del diagrama" />
+      </div>
+    </div>
+  </div>
+
+  <script src="./viewer.js"></script>
+</body>
+</html>
