@@ -2,36 +2,36 @@ const COMPANY_NAME = "HC8 Clients";
 
 const clients = [
   {
-    companyName: "John Doe's",
-    firstName: "John",
-    lastName: "Doe",
-    contactNo: "555-1234",
-    email: "john.doe@example.com",
-    website: "https://johndoes.com",
-    details: "Tienda local enfocada en ventas directas, presencia digital y captacion de clientes nuevos.",
+    companyName: "Zayas 4ka",
+    firstName: "Diego",
+    lastName: "Zayas",
+    contactNo: "939-397-6152",
+    email: "info@zayas4ka.com",
+    website: "https://zayas4ka.com",
+    details: "Tienda local enfocada en booking, presencia digital y captacion de clientes nuevos.",
     address: {
-      city: "New York",
-      state: "NY",
-      zip: "10001"
+      city: "Puerto Rico",
+      state: "PR",
+      zip: "00970"
     },
     workDone: [
-      "Diseno inicial del sitio web corporativo",
-      "Configuracion del formulario de contacto",
+      "Diseno inicial del sitio web de citas",
+      "Configuracion del calendario visual para escoger día",
       "Optimizacion para moviles y PWA"
     ]
   },
   {
-    companyName: "Lopez Group",
-    firstName: "Maria",
-    lastName: "Lopez",
-    contactNo: "305-555-7788",
-    email: "maria.lopez@example.com",
+    companyName: "Hernandez Style",
+    firstName: "Jesenia",
+    lastName: "Hernandez",
+    contactNo: "1787-667-6250",
+    email: "myemail@minegocio.com",
     website: "https://lopezgroup.example",
     details: "Consultoria administrativa con enfoque en automatizacion de procesos y gestion de clientes.",
     address: {
-      city: "Miami",
-      state: "FL",
-      zip: "33101"
+      city: "Puerto Rico",
+      state: "PR",
+      zip: "00969"
     },
     workDone: [
       "Landing page promocional",
@@ -40,21 +40,21 @@ const clients = [
     ]
   },
   {
-    companyName: "Carter Holdings",
-    firstName: "Alex",
-    lastName: "Carter",
-    contactNo: "702-555-9922",
-    email: "alex.carter@example.com",
-    website: "https://carterholdings.example",
-    details: "Empresa de inversiones con necesidad de presentar servicios, contacto rapido y cartera de proyectos.",
+    companyName: "JR",
+    firstName: "Jeremy",
+    lastName: "Ray",
+    contactNo: "787-667-6250",
+    email: "jr@example.com",
+    website: "https://jrthek.in",
+    details: "Web app de artista con necesidad de presentar servicios, contacto rapido y cartera de proyectos.",
     address: {
-      city: "Las Vegas",
-      state: "NV",
-      zip: "88901"
+      city: "Puerto Rico",
+      state: "PR",
+      zip: "00970"
     },
     workDone: [
-      "Redisenio visual del portal principal",
-      "Seccion privada para clientes",
+      "Diseño profesional de música",
+      "Seccion visual para clientes",
       "Mejoras de rendimiento y cache"
     ]
   }
