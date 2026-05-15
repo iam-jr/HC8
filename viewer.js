@@ -2,60 +2,123 @@ const COMPANY_NAME = "HC8 Clients";
 
 const clients = [
   {
-    companyName: "Zayas 4ka",
-    firstName: "Diego",
-    lastName: "Zayas",
-    contactNo: "939-397-6152",
+    companyName: "JR Store",
+    firstName: "Jeremy",
+    lastName: "Rey",
+    contactNo: "+57 (Colombia)",
+    email: "info@jrthekin.store",
+    website: "https://jrthekin.store",
+    details: "Tienda de música y arte urbano. Vendemos presencia: posters premium, hoodies oversize y accesorios para artistas, creadores y fans del movimiento urbano. Inspirado en estética street y ritmos pesados.",
+    address: {
+      city: "Colombia",
+      state: "COL",
+      zip: "Envíos nacionales"
+    },
+    workDone: [
+      "Diseño y desarrollo del sitio web de e-commerce",
+      "Integración de sistema de pagos online seguro",
+      "Optimización mobile y PWA para compras desde cualquier dispositivo",
+      "Sistema de seguimiento de pedidos y entregas 24-48h"
+    ]
+  },
+  {
+    companyName: "Zayas4ka Barber",
+    firstName: "Zayas",
+    lastName: "Barbero",
+    contactNo: "+1 (939) 397-6152",
     email: "info@zayas4ka.com",
     website: "https://zayas4ka.com",
-    details: "Tienda local enfocada en booking, presencia digital y captacion de clientes nuevos.",
+    details: "Barbería profesional con más de 5 años de experiencia. Especializado en cortes modernos y tradicionales con altos estándares de higiene y calidad. Certificado y graduado en servicio profesional. Sistema de reservas online con confirmación inmediata.",
     address: {
-      city: "Puerto Rico",
+      city: "Carolina",
       state: "PR",
-      zip: "00970"
+      zip: "Puerto Rico"
     },
     workDone: [
-      "Diseno inicial del sitio web de citas",
-      "Configuracion del calendario visual para escoger día",
-      "Optimizacion para moviles y PWA"
+      "Desarrollo de plataforma de reservas online automática",
+      "Integración con sistema de confirmación por email",
+      "Calendario interactivo con disponibilidad en tiempo real",
+      "Sistema de pagos múltiples (Efectivo, ATH Móvil, PayPal)"
     ]
   },
   {
-    companyName: "Hernandez Style",
+    companyName: "Internet iPC",
+    firstName: "Internet",
+    lastName: "iPC",
+    contactNo: "+1 (555) 246-8135",
+    email: "info@internetipc.com",
+    website: "https://internetipc.com",
+    details: "Plataforma de búsqueda y exploración web impulsada por inteligencia artificial. Ofrece herramientas avanzadas para investigación en línea, análisis de datos web y automatización de búsquedas. Especializada en tecnología AI y procesamiento de información digital.",
+    address: {
+      city: "Silicon Valley",
+      state: "CA",
+      zip: "94025"
+    },
+    workDone: [
+      "Desarrollo de interfaz de búsqueda AI",
+      "Sistema de procesamiento de datos en tiempo real",
+      "Integración de APIs de exploración web",
+      "Dashboard de análisis y reportes automáticos"
+    ]
+  },
+  {
+    companyName: "Communiks",
+    firstName: "Communiks",
+    lastName: "Studio",
+    contactNo: "+1 (555) 789-1234",
+    email: "info@communiks.com",
+    website: "https://communiks.com",
+    details: "Estudio de diseño futurista que combina arte, moda, interiores y tecnología. Utilizamos inteligencia artificial para transformar ideas en diseños únicos y personalizados. Especializados en crear conceptos vanguardistas que están listos para materializarse.",
+    address: {
+      city: "Buenos Aires",
+      state: "BA",
+      zip: "C1425"
+    },
+    workDone: [
+      "Plataforma de carga y procesamiento de imágenes con IA",
+      "Sistema de generación de diseños personalizados",
+      "Galería de portafolio digital interactivo",
+      "Integración de contacto y cotizaciones automáticas"
+    ]
+  },
+  {
+    companyName: "Jesenia Estilista",
     firstName: "Jesenia",
     lastName: "Hernandez",
-    contactNo: "1787-667-6250",
-    email: "myemail@minegocio.com",
-    website: "https://lopezgroup.example",
-    details: "Consultoria administrativa con enfoque en automatizacion de procesos y gestion de clientes.",
+    contactNo: "WhatsApp directo",
+    email: "jesenia@estilista.com",
+    website: "https://jeseniaestilista.com",
+    details: "Estilista profesional con más de 30 años de experiencia en la industria de la belleza y el estilismo. Ofrece un espacio cálido y acogedor donde el arte, el estilo y la autenticidad convergen. Especializada en técnicas clásicas y modernas con atención personalizada.",
     address: {
       city: "Puerto Rico",
       state: "PR",
-      zip: "00969"
+      zip: "San Juan"
     },
     workDone: [
-      "Landing page promocional",
-      "Integracion de reservas en linea",
-      "Panel de seguimiento de clientes"
+      "Desarrollo de sitio web PWA para reservas de citas",
+      "Integración con WhatsApp para contacto directo",
+      "Sistema de portafolio con galería de servicios",
+      "Plataforma mobile-first con servicio offline"
     ]
   },
   {
-    companyName: "JR",
-    firstName: "Jeremy",
-    lastName: "Ray",
-    contactNo: "787-667-6250",
-    email: "jr@example.com",
-    website: "https://jrthek.in",
-    details: "Web app de artista con necesidad de presentar servicios, contacto rapido y cartera de proyectos.",
+    companyName: "Casa Cash Express",
+    firstName: "Casa",
+    lastName: "Cash Express",
+    contactNo: "+1 (787) 555-0123",
+    email: "info@casacashexpress.com",
+    website: "https://casacashexpress.com",
+    details: "Servicio de compra de propiedades en efectivo. Ofrecemos dinero rápido por tu propiedad sin complicaciones ni trámites largos. Con cobertura en toda Puerto Rico, garantizamos una venta inmediata y profesional para tu propiedad.",
     address: {
       city: "Puerto Rico",
       state: "PR",
-      zip: "00970"
+      zip: "Cobertura Total"
     },
     workDone: [
-      "Diseño profesional de música",
-      "Seccion visual para clientes",
-      "Mejoras de rendimiento y cache"
+      "Desarrollo de formulario interactivo para evaluación de propiedades",
+      "Integración con base de datos de municipios de Puerto Rico",
+      "Sistema de contacto directo y cotizaciones automáticas",
+      "Plataforma PWA para acceso mobile en cualquier momento"
     ]
   }
 ];
@@ -100,7 +163,7 @@ function escapeHtml(value) {
 }
 
 function getClientLabel(client, index) {
-  return `${index + 1}. ${safeText(client.firstName)} ${safeText(client.lastName)}`.trim();
+  return `${index + 1}. ${safeText(client.companyName)}`.trim();
 }
 
 function populateClientSelect() {
